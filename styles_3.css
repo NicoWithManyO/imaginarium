@@ -525,6 +525,68 @@ a {
     color: var(--white);
 }
 
+/* Planches Section */
+.planches-section {
+    margin-top: 4rem;
+}
+
+.planches-section h3 {
+    font-size: 2rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.planches-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.planche-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--shadow);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.planche-card:hover {
+    transform: translateY(-5px);
+}
+
+.planche-card h4 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+.planche-note {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.planche-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 1rem 0;
+}
+
+.planche-card.highlight {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+}
+
+.planche-card.highlight h4,
+.planche-card.highlight .planche-price {
+    color: var(--white);
+}
+
 /* Specialties Section */
 .specialties {
     margin-top: 4rem;
@@ -690,6 +752,14 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+.drinks-grid-compact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .drinks-category {
@@ -1021,6 +1091,10 @@ a {
         grid-template-columns: 1fr;
     }
 
+    .planches-grid {
+        grid-template-columns: 1fr;
+    }
+
     .brunch-formulas {
         grid-template-columns: 1fr;
     }
@@ -1046,6 +1120,10 @@ a {
 
     .drinks-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .drinks-grid-compact {
+        grid-template-columns: 1fr;
     }
 }
 
