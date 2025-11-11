@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'imaginarium - Montereau-Fault-Yonne</title>
+    <link rel="stylesheet" href="styles_3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>L'imaginarium</h1>
+                <p>Montereau-Fault-Yonne</p>
+            </div>
+            <nav class="nav">
+                <a href="#accueil">Accueil</a>
+                <a href="#restaurant">Le Restaurant</a>
+                <a href="#carte">La Carte</a>
+                <a href="#photos">Photos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fermer">✕</button>
+            <nav class="mobile-nav">
+                <a href="#accueil">Accueil</a>
+                <a href="#restaurant">Le Restaurant</a>
+                <a href="#carte">La Carte</a>
+                <a href="#photos">Photos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+    </div>
+
+    <!-- Hero -->
+    <section id="accueil" class="hero">
+        <div class="hero-image">
+            <img src="img/devanture.jpg" alt="Notre restaurant">
+        </div>
+        <div class="hero-content">
+            <div class="hero-box">
+                <h2>Bienvenue à L'imaginarium</h2>
+                <p>Une cuisine authentique et généreuse dans une ambiance chaleureuse</p>
+                <a href="#contact" class="btn">Nous rendre visite</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <span class="badge">Notre histoire</span>
+                <h2>Un restaurant qui vous ressemble</h2>
+                <p class="lead">Au cœur de Montereau-Fault-Yonne, notre restaurant vous accueille dans une atmosphère conviviale et décontractée. Ici, on prend le temps de bien faire les choses : une cuisine de qualité, des produits frais, et surtout beaucoup de plaisir à vous recevoir !</p>
+            </div>
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <div class="card-icon">🍽️</div>
+                    <h3>Cuisine Maison</h3>
+                    <p>Des plats préparés avec soin, comme à la maison, avec des produits frais et de saison.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="card-icon">❤️</div>
+                    <h3>Ambiance Chaleureuse</h3>
+                    <p>Un accueil familial dans un cadre confortable où l'on se sent bien.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="card-icon">🍷</div>
+                    <h3>Belle Carte des Vins</h3>
+                    <p>Une sélection de vins pour accompagner vos repas et faire plaisir à tous les palais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image + Text Section -->
+    <section class="about">
+        <div class="container-wide">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="img/bar.jpg" alt="Notre bar">
+                </div>
+                <div class="about-text">
+                    <h2>Un lieu où il fait bon vivre</h2>
+                    <p>Notre restaurant, c'est avant tout une histoire de passion et de partage. Que ce soit pour un déjeuner entre collègues, un dîner en amoureux ou un repas en famille, nous mettons tout en œuvre pour que vous passiez un excellent moment.</p>
+                    <p>Notre chef et son équipe travaillent chaque jour pour vous proposer une cuisine savoureuse et authentique, en privilégiant les circuits courts et les producteurs locaux.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <strong>✓</strong>
+                            <span>Produits frais du marché</span>
+                        </div>
+                        <div class="feature">
+                            <strong>✓</strong>
+                            <span>Menus renouvelés régulièrement</span>
+                        </div>
+                        <div class="feature">
+                            <strong>✓</strong>
+                            <span>Options végétariennes disponibles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="carte" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Notre carte</span>
+                <h2>Ce que nous vous proposons</h2>
+                <p>Des plats faits maison avec des produits frais</p>
+            </div>
+
+            <div class="menu-categories">
+                <!-- Entrées -->
+                <div class="menu-category">
+                    <h3>🥗 Entrées</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Mille-feuilles de betterave & chèvre</strong>
+                            </div>
+                            <span class="item-price">4,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Carottes râpées à l'ail & pignons</strong>
+                            </div>
+                            <span class="item-price">4,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Salade de Roquette & jambon de Bayonne</strong>
+                                <span class="item-desc">Tomate, maïs, mozzarella</span>
+                            </div>
+                            <span class="item-price">6,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Salade de chèvre chaud au miel & Roquette</strong>
+                                <span class="item-desc">Baies de goji</span>
+                            </div>
+                            <span class="item-price">6,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Velouté du jour & sa tartine toastée au fromage</strong>
+                            </div>
+                            <span class="item-price">6€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plats -->
+                <div class="menu-category">
+                    <h3>🍽️ Plats Principaux</h3>
+                    <div class="menu-items">
+                        <div class="menu-item vegetarian">
+                            <div class="item-name">
+                                <strong>Épinard à l'ail & aux champignons à la crème 🌱</strong>
+                            </div>
+                            <span class="item-price">6,50€</span>
+                        </div>
+                        <div class="menu-item vegetarian">
+                            <div class="item-name">
+                                <strong>Épinard à l'algérienne 🌱</strong>
+                                <span class="item-desc">Pomme de terre, tomate, ail, persil & piment</span>
+                            </div>
+                            <span class="item-price">6,50€</span>
+                        </div>
+                        <div class="menu-item special">
+                            <div class="item-name">
+                                <strong>Escalope de dinde sur Tagliatelles</strong>
+                                <span class="item-desc">Fondue de poireau aux champignons</span>
+                            </div>
+                            <span class="item-price">12€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Escalope de dinde sauce champignons</strong>
+                                <span class="item-desc">À la crème & curry</span>
+                            </div>
+                            <span class="item-price">10,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Bavette ou entrecôte sauce échalotte</strong>
+                                <span class="item-desc">Accompagnements : frites maison / haricots verts à l'ail</span>
+                            </div>
+                            <span class="item-price">10,50€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-category">
+                    <h3>🍰 Desserts</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Assiette de fromages</strong>
+                            </div>
+                            <span class="item-price">6€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Salade de fruits de saison</strong>
+                            </div>
+                            <span class="item-price">5€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Suprême d'orange à la cannelle</strong>
+                            </div>
+                            <span class="item-price">4,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Glaces (2 boules)</strong>
+                            </div>
+                            <span class="item-price">3,50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">
+                                <strong>Dessert du jour</strong>
+                            </div>
+                            <span class="item-price">4,50€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formules -->
+            <div class="formulas">
+                <h3>📋 Nos Formules</h3>
+                <div class="formula-grid">
+                    <div class="formula-card">
+                        <h4>Menu du Jour</h4>
+                        <p class="formula-price">13€</p>
+                        <p>Entrée + Plat<br><em>ou</em><br>Plat + Dessert</p>
+                    </div>
+                    <div class="formula-card highlight">
+                        <span class="popular-badge">Populaire</span>
+                        <h4>Menu Complet</h4>
+                        <p class="formula-price">16€</p>
+                        <p>Entrée + Plat + Dessert</p>
+                    </div>
+                    <div class="formula-card">
+                        <h4>Menu Enfant</h4>
+                        <p class="formula-price">8€</p>
+                        <p>Hamburger ou Friture<br>Frites ou Haricots verts<br>Coupe de glace ou dessert du jour</p>
+                        <p style="font-size: 0.85rem; margin-top: 0.5rem;"><strong>Mercredi spécial :</strong><br>Cuisse de poulet au four & purée maison</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spécialités -->
+            <div class="specialties">
+                <h3>⭐ Nos Spécialités</h3>
+                <div class="specialty-grid">
+                    <div class="specialty-card">
+                        <h4>🍲 Couscous</h4>
+                        <p class="specialty-note">Sur réservation 24h à l'avance (6 personnes minimum)</p>
+                        <div class="specialty-options">
+                            <div class="specialty-item">
+                                <strong>7 légumes</strong>
+                                <span>13€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Royal</strong>
+                                <span>22€</span>
+                            </div>
+                            <p class="specialty-desc">Souri ou collier d'agneau, pilon de poulet & brochette de boeuf</p>
+                        </div>
+                    </div>
+
+                    <div class="specialty-card">
+                        <h4>🍤 Fritures</h4>
+                        <p class="specialty-note">Toutes nos fritures à 4,50€</p>
+                        <div class="specialty-options">
+                            <div class="specialty-item">
+                                <strong>Samoussas aux légumes</strong>
+                                <span>4,50€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Bouchées tomate mozzarella</strong>
+                                <span>4,50€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Cigares poulet curry rouge</strong>
+                                <span>4,50€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Accras de morue</strong>
+                                <span>4,50€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Sticks mozzarella</strong>
+                                <span>4,50€</span>
+                            </div>
+                            <div class="specialty-item">
+                                <strong>Beignets de crevettes</strong>
+                                <span>4,50€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="specialty-card">
+                        <h4>🥂 Brunch du Dimanche</h4>
+                        <p class="specialty-price">20€</p>
+                        <div class="brunch-formulas">
+                            <div class="brunch-option">
+                                <strong>Formule Salée</strong>
+                                <ul>
+                                    <li>Œufs brouillés</li>
+                                    <li>Planche de charcuteries & fromages</li>
+                                    <li>Verre de vin</li>
+                                    <li>Thé ou café gourmand</li>
+                                </ul>
+                            </div>
+                            <div class="brunch-option">
+                                <strong>Formule Sucrée</strong>
+                                <ul>
+                                    <li>Brioche perdue & poêlée de fruits frais (miel)</li>
+                                    <li>Fromage blanc & son coulis rouge</li>
+                                    <li>Verre de jus de fruits</li>
+                                    <li>Thé ou café gourmand</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="private-events">
+                    <h4>🎉 Organisation de soirées privées</h4>
+                    <p>Location de salle pour 10 personnes minimum - 300€</p>
+                    <p>Formule repas, boissons & service : de 20 à 30€ / personne</p>
+                </div>
+            </div>
+
+            <!-- Carte des Boissons -->
+            <div class="drinks-section">
+                <h3>🍷 Carte des Boissons</h3>
+                <div class="drinks-grid">
+                    <!-- Eaux & Softs -->
+                    <div class="drinks-category">
+                        <h4>Eaux minérales</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Evian (50 cl)</span>
+                                <span>2,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Evian (1 l)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>San Pellegrino (50 cl)</span>
+                                <span>2,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>San Pellegrino (1 l)</span>
+                                <span>3,50€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="drinks-category">
+                        <h4>Softs</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Coca-cola (33 cl)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Coca-cola sans sucre (33 cl)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Orangina (25 cl)</span>
+                                <span>3€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Icetea (33 cl)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Oasis Tropical (33 cl)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Jus de fruits (33 cl)</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-note">Orange, Pamplemousse, Ananas, Pomme, Banane, Goyave, Tomate</div>
+                        </div>
+                    </div>
+
+                    <div class="drinks-category">
+                        <h4>Boissons chaudes</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Expresso ou Décaféiné</span>
+                                <span>1,90€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Cappuccino</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Macchiato</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Chocolat chaud</span>
+                                <span>3€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Thé ou infusion</span>
+                                <span>3,20€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="drinks-category">
+                        <h4>Bières</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Heineken blonde 5°</span>
+                                <span>3,50€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Pelforth brune 6.5°</span>
+                                <span>4€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="drinks-category">
+                        <h4>Spiritueux & Digestifs</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Ricard (2 cl)</span>
+                                <span>3€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Porto</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Martini rouge (6 cl)</span>
+                                <span>3,40€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Martini blanc (6 cl)</span>
+                                <span>3,40€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Jameson Irish Whiskey Premium</span>
+                                <span>4€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Jack Daniel's Old n°7</span>
+                                <span>5€</span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Chivas Regal 12 ans</span>
+                                <span>7€</span>
+                            </div>
+                        </div>
+                        <div class="drink-note">St James Rhum, Monpeyi liqueur, Zubrowka Vodka, Bombay Sapphire Gin</div>
+                    </div>
+
+                    <div class="drinks-category">
+                        <h4>Vins & Champagne</h4>
+                        <div class="drink-items">
+                            <div class="drink-item">
+                                <span>Vin rouge</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Vin blanc</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Vin rosé</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Pétillant & Champagne</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Kir cassis - mûre</span>
+                                <span></span>
+                            </div>
+                            <div class="drink-item">
+                                <span>Kir royal</span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="photos" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Galerie</span>
+                <h2>Découvrez notre univers</h2>
+                <p>Quelques images de notre restaurant, nos plats et notre ambiance</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0001.jpg" alt="Salle du restaurant">
+                    <div class="gallery-caption">Notre salle</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0004.jpg" alt="Nos plats">
+                    <div class="gallery-caption">Nos plats</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0008.jpg" alt="Ambiance">
+                    <div class="gallery-caption">L'ambiance</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0009.jpg" alt="Table">
+                    <div class="gallery-caption">À table !</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0010.jpg" alt="Spécialités">
+                    <div class="gallery-caption">Nos spécialités</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0012.jpg" alt="Intérieur">
+                    <div class="gallery-caption">Intérieur cosy</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0015.jpg" alt="Décoration">
+                    <div class="gallery-caption">Décoration</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="img/IMG-20251009-WA0016.jpg" alt="Cuisine">
+                    <div class="gallery-caption">La cuisine</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Envie de nous rendre visite ?</h2>
+                <p>Nous serons ravis de vous accueillir ! Réservation conseillée pour le week-end.</p>
+                <a href="#contact" class="btn btn-light">Nous rendre visite</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Contact</span>
+                <h2>Venez nous voir</h2>
+                <p>Nous sommes là pour vous accueillir</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Adresse</h3>
+                            <p>6 rue couverte<br>77130 Montereau-Fault-Yonne<br>France</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:0160710009">01 60 71 00 09</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-content">
+                            <h3>Horaires d'ouverture</h3>
+                            <p><strong>Mardi - Samedi</strong><br>
+                            Midi : 12h00 - 14h00<br>
+                            Soir : 19h00 - 22h00</p>
+                            <p><strong>Dimanche</strong><br>
+                            12h00 - 15h00</p>
+                            <p><strong>Lundi :</strong> Fermé</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps?q=6+rue+couverte,77130+Montereau-Fault-Yonne,France&output=embed" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="cta-call-box">
+                        <h3>Réservez votre table</h3>
+                        <p>Appelez-nous directement pour réserver ou pour toute question</p>
+                        <a href="tel:0160710009" class="btn btn-call">📞 Appeler maintenant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>L'imaginarium</h4>
+                    <p>Restaurant convivial à Montereau-Fault-Yonne</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#restaurant">Le Restaurant</a></li>
+                        <li><a href="#photos">Photos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Nous suivre</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 manyO.dev - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script_3.js"></script>
+</body>
+</html>
+
